@@ -12,10 +12,13 @@ def rimuovi():
     lista.remove(x)
     print(lista)
 
-#def conta():
-#count = 0
-#for i in elementi:
-#print(lista )
+def conta():
+    
+    print(len(lista))
+
+def svuota_lista(lista):
+    lista.clear()
+
 
 while True:
     print("premi 0 per uscire,\n premi 1 per aggiungerre un elemento,\n premi 2 pervisualizzare la lista,\n premi 3 per eliminare un elemento,\n premi 4 per contare gli elementi della lista,\n premi 5 per eliminare un elemento")
